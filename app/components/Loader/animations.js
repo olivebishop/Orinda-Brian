@@ -4,7 +4,7 @@ export const introAnimation = (wordGroupsRef) => {
   const tl = gsap.timeline();
   tl.to(wordGroupsRef.current, {
     yPercent: -80,
-    duration: 5,
+    duration: 8,
     ease: "power3.inOut",
   });
 
@@ -15,7 +15,7 @@ export const collapseWords = (wordGroupsRef) => {
   const tl = gsap.timeline();
   tl.to(wordGroupsRef.current, {
     "clip-path": "polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%)",
-    duration: 3,
+    duration: 4,
     ease: "expo.inOut",
   });
 

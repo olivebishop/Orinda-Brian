@@ -1,0 +1,95 @@
+/* Footer container styles */
+.footer {
+  background-image: url('/images/photography.jpg'); /* Adjust the path as needed */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+/* Styles for contact information */
+.contact-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; /* Vertically center items within the row */
+}
+
+/* Styles for contact details on the left */
+.contact-detail {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Additional styles for responsiveness and readability */
+.contact-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.colored-grey {
+  color: gray; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+  
+}
+
+/* Link styles */
+.colored-grey a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Quick contact section styles */
+.quick-contact {
+  color: white;
+  padding: 20px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Input styles */
+.quick-contact .input-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.quick-contact input[type="text"],
+.quick-contact textarea {
+  background-color: black; /* Set input background to black */
+  color: gray;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+/* Make the Message input longer */
+.quick-contact .message-input-container {
+  flex: 1;
+}
+
+/* Placeholder styles */
+.quick-contact input::placeholder,
+.quick-contact textarea::placeholder {
+  color: white;
+}
+
+/* Send Message button styles */
+.send-btn button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px; /* Make the button rounded */
+  transition: background-color 0.3s;
+  padding: 10px 20px;
+}
+.btn-click button:hover {
+  background-color: red; /* Change background color to gray on hover */
+}
