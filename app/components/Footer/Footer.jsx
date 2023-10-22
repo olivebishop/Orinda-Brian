@@ -1,6 +1,5 @@
-// components/Footer.js
 import React from 'react';
-import styles from './Footer.module.css'; // Import CSS module
+import styles from './Footer.module.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 function Footer() {
@@ -45,8 +44,8 @@ return (
             
             </div>
             <button type="button" onClick={() => scrollToSection("contact")} className="btn btn-pill btn-large btn-outline-light mr-3 send-btn" data-hover="click">
-  <span>Send Message</span> <i className="icon icon-paper-plane"></i>
-</button>
+            <span>Send Message</span> <i className="icon icon-paper-plane"></i>
+            </button>
 
 
         </div>

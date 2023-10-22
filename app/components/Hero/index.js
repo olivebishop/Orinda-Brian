@@ -80,7 +80,7 @@ const Hero = () => {
         <div data-image-overlay className={styles.hero__imageOverlay}></div>
         <Image
           data-image
-          src="/images/photograph.jpg"
+          src="/images/photography.jpg"
           width={1728}
           height={650}
         
