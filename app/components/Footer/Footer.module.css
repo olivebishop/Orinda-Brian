@@ -93,3 +93,32 @@
 .btn-click button:hover {
   background-color: red; /* Change background color to gray on hover */
 }
+.grayText {
+  color: gray;
+  text-decoration: none; /* Remove underline */
+}
+/* Icon styles */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.social-icon {
+  font-size: 15px; /* Adjust the size as needed */
+  color: white;
+  margin-right: 10px; /* Adjust the spacing between icons */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover styles for the icon */
+.social-icon:hover {
+  color: red; /* Change icon color on hover */
+}
+.icon-paper-plane {
+  /* Define your icon styles here */
+  font-family: 'Matter Regular';
+  /* Add any other styles like color, size, etc. */
+}
+
