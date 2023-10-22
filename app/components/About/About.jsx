@@ -12,7 +12,7 @@ function About() {
   return (
     <section className={styles['about-section']}>
       <div className={styles.container}>
-        <h1 className={styles.heading} data-aos='fade-up'>
+        <h1 className={styles.heading} data-aos='fade-down'>
           Our Services
         </h1>
 
@@ -21,11 +21,11 @@ function About() {
             <img src="/images/outdoor.jpg" alt="Outdoor Shoots" />
             <p>Outdoor Shots</p>
           </div>
-          <div className={`${styles.service} ${styles['lg-xlg']}`} data-aos='fade-down' data-aos-delay='100'>
+          <div className={`${styles.service} ${styles['lg-xlg']}`} data-aos='fade-down' data-aos-delay='300'>
             <img src="/images/indoor.jpg" alt="Indoor Shots" />
             <p>Indoor Shots</p>
           </div>
-          <div className={`${styles.service} ${styles['lg-xlg']}`} data-aos='fade-down' data-aos-delay='200'>
+          <div className={`${styles.service} ${styles['lg-xlg']}`} data-aos='fade-down' data-aos-delay='600'>
             <img src="/images/videography.jpg" alt="Videography Reels" />
             <p>Videography Reels</p>
           </div>
