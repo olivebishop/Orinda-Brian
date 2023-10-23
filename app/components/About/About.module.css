@@ -3,10 +3,15 @@
     background-color: #f0f0f0;
     padding: 60px 0;
     text-align: center;
+    align-items: flex-start;
+    
+  }
+  .about-section h1{
+    text-align: start;
   }
   
   .container {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -24,7 +29,7 @@
   
   .service {
     flex: 0 0 30%;
-    padding: 20px;
+    padding: 30px;
 
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -37,14 +42,15 @@
   }
   
   .image {
-    width: 150px; /* Increase the image size */
-    height: 150px; /* Increase the image size */
+    width: 350px; /* Increase the image size */
+    height: 175px; /* Increase the image size */
     margin: 0 auto;
   }
   
   .description {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
+    text-align: center;
   }
   
   /* Additional CSS for responsiveness */
@@ -57,4 +63,7 @@
       margin: 10px 0;
     }
   }
-  
+  .about-h1{
+    font-size: 24px;
+    text-align: start;
+  }
